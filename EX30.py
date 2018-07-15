@@ -1,0 +1,7 @@
+n1=int(input("Enter the stating hour"))
+m1=int(input("Enter the atarting mintues"))
+n2=int(input("Enter the ending hour"))
+m2=int(input("Enter the ending minutes"))
+mn=int(m2-m1)
+hr=int(n2-n1)
+print("hour",abs(hr),"min",abs(mn))
